@@ -1,0 +1,25 @@
+/* This file is for your main application css. */
+
+@import "./phoenix.css";
+
+.help-block{
+    font-size: 15px;
+    color: red;
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;    
+}
+
+nav.light-blue{
+    margin-bottom: 20px;
+}
+
+.collection .collection-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.collection .collection-item .flex-right{
+    display: flex;
+    justify-content: flex-end;
+}
